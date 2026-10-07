@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Shreeya S – Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nav" id="nav">
+        <div class="wrap">
+            <a class="logo" href="#home"><svg width="26" height="16" viewBox="0 0 26 16" aria-hidden="true">
+                    <path d="M1 15C8 14 14 8 25 1 19 6 15 11 9 15Z" fill="#c9b8ff" />
+                </svg>SHREEYA</a>
+            <button id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+            <nav id="menu"><a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a
+                    href="#projects">Projects</a><a href="#achievements">Achievements</a><a
+                    href="#education">Education</a><a href="#contact">Contact</a></nav>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-photo" data-hero></div>
+            <div class="wrap">
+                <div class="hero-text">
+                    <h1><span>Hello,</span><br>I'M Shreeya S</h1>
+                    <p class="sub">B.Tech – Computer Science Engineering Student</p>
+                    <p class="tag">Building Digital Solutions, AI-Powered Experiences, and Innovative Technology
+                        Projects.</p>
+                    <div class="row"><a class="btn" href="#projects">View Projects (Coming Soon)</a><a class="btn"
+                            href="#contact">Contact Me</a></div>
+                </div>
+            </div>
+            <a class="down" href="#about" aria-label="Scroll to About">⌄</a>
+        </section>
+
+        <section id="about" class="sec">
+            <div class="wrap about">
+                <div class="blob" data-photo></div>
+                <div>
+                    <h2 class="left">About Me</h2>
+                    <h3>I Am a Computer Science Engineering Student</h3>
+                    <p>Hi, I'm Shreeya S, a Computer Science Engineering student passionate about creating impactful
+                        technology solutions.</p>
+                    <p>My interests include Web Development, Artificial Intelligence, UI/UX Design and Startup
+                        Innovation. I enjoy transforming ideas into practical products that solve real-world problems
+                        and create meaningful digital experiences.</p>
+                    <a class="btn solid" href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="sec">
+            <div class="wrap narrow">
+                <h2>What I Do</h2>
+                <div class="cols" id="skillList"></div>
+            </div>
+        </section>
+
+        <section id="projects" class="sec line">
+            <div class="wrap narrow">
+                <h2 class="sr">Projects</h2>
+                <div class="tabs" id="tabs"></div>
+                <div class="gal" id="pjList"></div>
+            </div>
+        </section>
+
+        <section id="achievements" class="sec line">
+            <div class="wrap narrow">
+                <h2>Achievements</h2>
+                <div class="cols five" id="achList"></div>
+            </div>
+        </section>
+
+        <section id="education" class="sec mist">
+            <div class="wrap narrow">
+                <h2 class="sr">Education</h2>
+                <div class="cards" id="eduList"></div>
+            </div>
+        </section>
+
+        <section class="hire">
+            <div class="wrap narrow">
+                <div>
+                    <h3>Hire Me For Your Awesome Project</h3>
+                    <p>Have an idea or a project in mind? Let's turn it into something real together.</p>
+                </div><a class="btn solid" href="#contact">Hire Me</a>
+            </div>
+        </section>
+
+        <section id="contact" class="sec">
+            <div class="wrap narrow contact">
+                <div>
+                    <h3>Contact Info.</h3>
+                    <ul id="info"></ul>
+                </div>
+                <div>
+                    <h3>Send Your Message</h3>
+                    <p class="note">Fill in the form and it will open in your email app, addressed to me.</p>
+                    <form id="form">
+                        <div class="two"><input name="n" placeholder="Name" aria-label="Name" required><input name="e"
+                                type="email" placeholder="Email" aria-label="Email" required></div>
+                        <input name="s" placeholder="Subject" aria-label="Subject" required><textarea name="m"
+                            placeholder="Message" aria-label="Message" required></textarea>
+                        <button class="btn solid" type="submit">Submit Now</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap">
+            <div class="soc" id="soc"></div>
+            <p>© 2026 Shreeya S. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
